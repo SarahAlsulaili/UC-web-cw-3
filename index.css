@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    font-family: monospace ;
+}
+
+.container{
+ width: 500px ;
+ animation-name: example ;
+
+}
+
+.box{
+    width: 150px ;
+    height: 150px ;
+    background-color: teal;
+    margin: 1px;
+    border-radius: 10px ;
+    border: 2px solid darkkhaki;
+    transition: all 0.5s ease-in-out;
+}
+ 
+@keyframes example {
+
+    from {background-color: red;}
+    to {background-color: yellow;}
+  
+}
+
+.box:hover{
+    background-color:  turquoise ;
+}
+
+h3{
+    margin: 0%;
+}
+
+p{
+    margin: 15px;
+    font-family: monospace ;
+    text-align: left;
+
+}
+
